@@ -32,7 +32,8 @@ Xl/SBMWj8GIZ9E00b4XukG68pUtJbTfkJnhRDqA1itz/v+SS77o=
   build:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
-
+/npm install -g yo
+npm install -g generator-kodi-addon
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
